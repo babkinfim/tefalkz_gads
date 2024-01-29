@@ -1,0 +1,11 @@
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+'event': 'purchase', // Название События. Оставляем без изменений.
+'value':1.222, // Передаем общую стоимость всех купленных товаров
+'items': [
+{
+'id': 11970210 , // Передаем все ID купленных товаров
+'google_business_vertical': 'retail' // Оставляем без изменений
+},
+]
+});
