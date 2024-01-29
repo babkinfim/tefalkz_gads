@@ -1,0 +1,10 @@
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({'event': 'view_item', // Название События. Оставляем без изменений.
+'value':1.222, // Цена товара без валюты. Целое число или число с плавающей точкой. Если товар в акции, передаем акционную цену.
+'items': [
+{
+'id': 11970210 , // Передаем ID товара, указанного в фиде Google Merchant Center
+'google_business_vertical': 'retail' // Оставляем без изменений
+},
+]
+});
