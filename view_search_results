@@ -1,0 +1,11 @@
+window.dataLayer = window.dataLayer || [];
+dataLayer.push({
+'event': 'view_search_results', // Название События. Оставляем без изменений.
+'value':1.222, // Передаем общую стоимость всех загруженных товаров
+'items': [
+{
+'id': 11970210 , // Передаем ID всех загруженных товаров
+'google_business_vertical': 'retail' //Оставляем без изменений
+},
+]
+});
