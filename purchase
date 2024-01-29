@@ -1,7 +1,4 @@
-## **Код для dataLayer:**
 
-```javascript
-<script>
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({
 'event': 'purchase', // Название События. Оставляем без изменений.
@@ -13,5 +10,3 @@ dataLayer.push({
 },
 ]
 });
-</script>
-```
